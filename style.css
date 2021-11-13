@@ -1,0 +1,69 @@
+.title
+.headerContainer,
+.headerUpper,
+.headerLower,
+ul {
+  display: flex;
+}
+
+.headerContainer {
+  font-family: sans-serif;
+  width: 100%;
+  background-color: #1f2937;
+}
+
+.mainMessage,
+.headerUpper,
+.headerLower
+.title {
+  flex-direction: row;
+  justify-content: space-between;
+  color:  #f9faf8;
+}
+
+.headerUpper,
+.headerLower {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold
+}
+
+.title {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  font-size: 17px;
+  width: 600px;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+a {
+  cursor: pointer;
+}
+
+.mainMessage {
+  font-size: 50px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.subtext {
+  font-size: 22px;
+  color: #e5e7eb;
+  width: 50%;
+}
+
+.cityImage {
+  height: 50%;
+  width: 50%;
+}
