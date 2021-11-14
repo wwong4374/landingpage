@@ -100,7 +100,9 @@ a {
   font-weight: bold;
   color: #f9faf8;
   background-color: #3882f6;
+  cursor: pointer;
 }
+
 /* headerLowerRight */
 .cityImage {
   height: 85%;
